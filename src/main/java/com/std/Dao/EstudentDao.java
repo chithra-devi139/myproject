@@ -19,6 +19,7 @@ public class EstudentDao {
 EstudentRepository sr;
 public String post(Estudent s) {
 	sr.save(s);
+	
 	return "Post SucessFully";
 }
 

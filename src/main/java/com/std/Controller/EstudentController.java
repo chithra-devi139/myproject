@@ -86,6 +86,7 @@ public List<Estudent> getage(){
 
 @GetMapping(value="/length")
 public List<Estudent> getlengthname(){
+	System.out.println("Posted");
 	return ss.getlengthname();
 }
 
